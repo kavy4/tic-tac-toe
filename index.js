@@ -86,12 +86,12 @@ for (let index = 0; index < cells.length; index++)
         {
             if (numMove % 2 == 0)
             {
-                symbol[index].textContent = 'X'
+                symbol[index].textContent = 'O'
                 // circle
             }
             else
             {
-                symbol[index].textContent = 'O'
+                symbol[index].textContent = 'X'
                 // cross
             }
             numMove++
