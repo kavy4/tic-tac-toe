@@ -47,7 +47,7 @@ function CheckWinner()
 
     if (gameOver)
     {
-        if (numMove % 2 != 0)
+        if (numMove % 2 == 0)
         {
             document.getElementById('win-player').textContent = 'Player 1 win!'
             point1++
